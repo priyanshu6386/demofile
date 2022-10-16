@@ -1,3 +1,11 @@
+ProjectBorder/style.css
+@priyanshu6386
+priyanshu6386 Add files via upload
+Latest commit 728af98 31 seconds ago
+ History
+ 1 contributor
+107 lines (86 sloc)  1.81 KB
+
 *{
     margin: 0;
     padding: 0;
@@ -62,10 +70,11 @@ p{
     
     .box{
         width: 200px;
-        height: 300px;
+        height: 400px;
         border: 10px solid white;
         margin-top: 50% ;
         animation: animate 7s ease-in infinite;
+         
     }
 
     @keyframes animate{
@@ -96,4 +105,11 @@ p{
             border:20px ridge rgb(47, 0, 218);
         }
     }
+    p{
+        line-height: 14px;
+        font-family:cursive ;
+       
+        
+    }
+
 }

@@ -1,0 +1,46 @@
+
+   .price-card{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    width: 30%;
+    border:0px solid grey;
+    text-align: center;
+    border-style: outset;
+    box-shadow: 2px 2px 4px grey;
+    background-color: #E8F9FD;
+}
+.main{
+    text-decoration: solid;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('6sc6v5fcenlrb0rwxl69.webp');
+  width: 1350px;
+  height: 300px;
+  background-size: 100% 100%;
+  background-position: 50px 50px;
+}
+
+.cta{
+    color: white;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(255, 0, 170);
+    border: 1px;
+    border-style: ridge;
+    border-radius: 5px;
+    letter-spacing: 1px;
+   font-size: 15px;
+   margin-bottom: 16px;
+   box-shadow: 2px 2px 4px grey;
+   cursor: pointer;
+   outline: 0px;
+   transition: transform 1s;
+}
+.cta:hover{
+    background-color: rgb(165, 7, 7);
+}
+.cta:active{
+    transform: scale(1.05,1.05);
+}

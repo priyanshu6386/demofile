@@ -1,0 +1,19 @@
+.price-container{
+    display: flex;
+    width: 50%;
+    color: rgb(17, 16, 16);
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.price-card{
+  
+    width: 40%;
+    border: 3px solid black;
+    border-width: 25px;
+    text-align: center;
+    border-color: grey;
+    border-style: ridge;
+    box-shadow: 2px 4px 20px 2px rgb(128, 8, 82);
+}

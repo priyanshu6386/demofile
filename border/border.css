@@ -1,0 +1,26 @@
+.price-card-container{
+    display:flex ;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.price-card{
+    width: 30%;
+    margin: auto;
+    border: 3px solid rgb(7, 230, 230);
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-style: solid;
+}
+
+.price-card-new{
+    width: 30%;
+    align-items: stretch;
+    background-color: aqua;
+    margin: auto;
+    border: 3px solid rgb(7, 230, 230);
+    text-align: center;
+    border-radius: 50%/10%;
+}
